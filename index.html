@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Verma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Amit Verma</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Amit Verma</span></h1>
+            <h2>Frontend & Full Stack Developer</h2>
+            <p>
+                I am a Computer Science Engineering student
+                passionate about programming and web development.
+            </p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-card">
+            <p>
+                I am a B.Tech Computer Science Engineering student.
+                I enjoy learning new technologies and building
+                creative web applications. My goal is to become
+                a skilled software developer.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal portfolio website to showcase
+                    my skills, projects and achievements.
+                </p>
+                <a href="#contact" class="project-btn">Know More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Web Development Project</h3>
+                <p>
+                    A web development project created
+                    to improve my frontend development skills.
+                </p>
+                <a href="#contact" class="project-btn">Know More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <div class="contact-card">
+            <p>Have a question or want to work together?</p>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <input
+                        type="text"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <textarea
+                        id="message"
+                        placeholder="Write Your Message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="formStatus" aria-live="polite"></p>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Amit Verma | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
